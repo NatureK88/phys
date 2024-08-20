@@ -11,10 +11,15 @@ const vitepressSidebarOptions = {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "🐸Talk-Chat",
+  title: "Talk-Chat",
   description: "A Demo Site",
-  base: '/phys/',
+  // base: '/phys/',
+
+
+
   themeConfig: {
+    logo: "bilibili.svg",
+
 
     nav: [
       { text: '文件', link: '/' },
@@ -47,7 +52,7 @@ export default defineConfig({
       }
     }
   },
-
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   markdown: {
     math: true,
     toc: { level: [1, 2, 3, 4] },
