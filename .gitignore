@@ -1,0 +1,7 @@
+node_modules/
+.vitepress/cache/
+src/.vuepress/.temp/
+# src/.vuepress/dist/
+.vscode/
+# dist
+# .gitignore
