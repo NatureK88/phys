@@ -13,7 +13,7 @@ const vitepressSidebarOptions = {
 export default defineConfig({
   title: "Talk-Chat",
   description: "A Demo Site",
-  // base: '/phys/',
+  base: '/phys/',
 
 
 
